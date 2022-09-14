@@ -1,0 +1,92 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+/*styles for nav*/
+nav {
+    height: 100px;
+    width: 100vw;
+    background-color: #3DB337;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+p {
+    margin: 50px;
+}
+
+h1 {
+margin-right: auto;
+font-weight: 900;
+margin-left: 50px;
+color: green;
+
+}
+#logo2{
+    color: red;
+}
+a{
+    color: red;
+}
+.navlinks{
+    color: blue;
+}
+
+/* Styles for main body*/
+#parent {
+    height: 500px;
+    width: 100vw;
+    background:url('images/shop1.jpeg');
+    opacity: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#first_container {
+    height: 100%;
+    width: 50vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+h1{
+    text-align: start;
+    font-size: 40px;
+}
+
+.description{
+    font-size: 16px;
+    line-height: 1.7rem;
+}
+
+button{
+    background-color: #E0D22D;
+    padding: 10px;
+    margin: 50px;
+    width: 150px;
+    color: white;
+    border-radius: 8px;
+    height: 44px;
+    font-size: medium;
+    margin-left: 50px;
+}
+button:hover{
+    background-color: red;
+}
+
+.better{
+    color: #E0D22D;
+    font-weight: 900;
+}
+
+img{
+    width: 300px;
+}
+/* main axis - horizontal /x-axis */
+/* cross axis - vertical /y-axis */
