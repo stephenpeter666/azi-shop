@@ -16,39 +16,39 @@ nav {
 
 p {
     margin: 50px;
+    color: black;
 }
 
-h1 {
+h2 {
 margin-right: auto;
 font-weight: 900;
 margin-left: 50px;
-color: green;
+color: red;
 
 }
-#logo2{
-    color: red;
-}
+
 a{
     color: red;
 }
 .navlinks{
-    color: blue;
+    color: white;
 }
 
 /* Styles for main body*/
 #parent {
     height: 500px;
     width: 100vw;
-    background:url('images/shop1.jpeg');
-    opacity: 70%;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+}
+h1 {
+    margin-left: 50px ;
 }
 
 #first_container {
     height: 100%;
     width: 50vw;
-    
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -61,32 +61,93 @@ h1{
 }
 
 .description{
-    font-size: 16px;
-    line-height: 1.7rem;
+    font-size: 20px;
+    line-height: 1.75rem;
+    color: #000;
+    display: flex;
 }
 
 button{
-    background-color: #E0D22D;
+    background-color: #3DB337;
     padding: 10px;
     margin: 50px;
     width: 150px;
-    color: white;
+    color: black;
     border-radius: 8px;
     height: 44px;
     font-size: medium;
     margin-left: 50px;
+    border: none  ;
 }
 button:hover{
     background-color: red;
 }
 
 .better{
-    color: #E0D22D;
+    color: brown  ;
     font-weight: 900;
 }
 
 img{
     width: 300px;
+    margin: auto;
+}
+
+/* second parent */
+.second_parent {
+    width: 100vw;
+    height: 400px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.child1,
+.child2,
+.child3,
+.child4{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+}
+
+.child1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.child1 p{
+    font-size: 11px;
+    line-height: 1.65rem;
+    margin-top: 5px;
+}
+.store{
+    font-size: 10.5px;
+}
+
+.my-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.h3{
+   text-align: center;
+   font-size: 40px; 
+   color: #3DB337;
+   margin: 20px;
+}
+#links{
+    margin-left: 900px;
+}
+
+#parent1{
+    color: black;
+    
 }
 /* main axis - horizontal /x-axis */
 /* cross axis - vertical /y-axis */
